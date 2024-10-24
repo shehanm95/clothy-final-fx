@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="304.0" prefWidth="422.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.easternpearl.tasktracker.control.AddCategoryController">
+   <children>
+      <Button layoutX="98.0" layoutY="221.0" mnemonicParsing="false" onAction="#addNewCategoryAction" prefHeight="29.0" prefWidth="226.0" styleClass="button-38" stylesheets="@css/style.css" text="Confirm and Add toCategories" />
+      <Label layoutX="90.0" layoutY="20.0" prefHeight="59.0" prefWidth="252.0" text="Task Tracker">
+         <font>
+            <Font name="Candara Bold" size="32.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="51.0" fitWidth="52.0" layoutX="23.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/logo-03.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="23.0" layoutY="86.0" prefHeight="29.0" prefWidth="379.0" text="Add Task Categories,">
+         <font>
+            <Font name="Candara Bold" size="17.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="newCategoryText" layoutX="23.0" layoutY="127.0" prefHeight="25.0" prefWidth="379.0" promptText="Add New Task Category Here, " />
+      <Label layoutX="22.0" layoutY="157.0" prefHeight="29.0" prefWidth="379.0" text="*Once you add a category you cannot edit or delete it">
+         <font>
+            <Font name="Candara Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="178.0" prefHeight="29.0" prefWidth="379.0" text="Please keep the Category Name Length bellow 25 Characters.">
+         <font>
+            <Font name="Candara Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
