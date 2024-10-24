@@ -1,0 +1,40 @@
+.button-38 {
+    -fx-background-color: #B9C8DB; /* Normal white background */
+    -fx-text-fill: #111827; /* Dark text color for contrast */
+    -fx-border-color: #2C4A8D; /* Slightly darker blue border */
+    -fx-border-width: 1px; /* Border width */
+    -fx-border-radius: 10px; /* Rounded corners */
+    -fx-background-radius: 10px; /* Matching border and background radius */
+    -fx-font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -fx-font-size: 0.875rem; /* Font size */
+    -fx-font-weight: 600; /* Font weight */
+    -fx-padding: 0.75rem 1rem; /* Padding */
+    -fx-text-alignment: center; /* Center text alignment */
+    -fx-cursor: hand; /* Cursor changes to pointer */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 1, 0, 0, 1); /* Drop shadow */
+}
+
+.button-38:hover {
+    -fx-background-color: #325DA7; /* Blue background on hover */
+    -fx-text-fill: #FFFFFF; /* White text on hover */
+}
+
+.button-38:pressed {
+    -fx-background-color: #2C4A8D; /* Slightly darker blue on press */
+}
+
+.button-38:focused {
+    -fx-focus-color: transparent; /* Removes the focus outline */
+    -fx-faint-focus-color: transparent; /* Removes faint focus color */
+}
+
+.card{
+    -fx-border-radius : 10px;
+     -fx-margin: 10px;
+}
+
+.sub_todo_card{
+-fx-background-color: #D9E6F6;
+-fx-border-radius: 10;
+-fx-background-radius: 10;
+}

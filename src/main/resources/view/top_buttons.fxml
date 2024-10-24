@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+
+<HBox prefHeight="25.0" prefWidth="69.0" spacing="20.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.easternpearl.tasktracker.control.TopButtons">
+   <children>
+      <Circle fill="#ff6b00" onMouseClicked="#minimizeOperation" radius="9.0" stroke="#ff6b00" strokeType="INSIDE" />
+      <Circle fx:id="closeCircle" fill="RED" onMouseClicked="#closeOperation" radius="9.0" stroke="RED" strokeType="INSIDE">
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+      </Circle>
+   </children>
+</HBox>
